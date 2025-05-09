@@ -46,8 +46,8 @@ sys.path.append(str(path))
 # Load model and scaler
 model_lr = joblib.load("Models/linear_regression_model.pkl")
 scaler = joblib.load("Models/scaler.pkl")
-model_gb=joblib.load('Models/gradient_boosting_model.pkl')
-model_rf=joblib.load("Models/random_forest_model.pkl")
+#model_gb=joblib.load('Models/gradient_boosting_model.pkl')
+##model_rf=joblib.load("Models/random_forest_model.pkl")
 
 # Load feature encoding dictionary from JSON
 with open("Datas/feat_dict.json", "r") as f:
@@ -161,8 +161,8 @@ def main_page():
 
         # Predict resale price
         price_lr = model_lr.predict(input_scaled)[0]
-        price_gb=model_gb.predict(input_df)
-        price_rf=model_rf.predict(input_df)
+        #price_gb=model_gb.predict(input_df)
+        #price_rf=model_rf.predict(input_df)
         st.success(f"💰 Estimated Resale Price: SGD {price_lr:,.2f}")
 
 def main():
