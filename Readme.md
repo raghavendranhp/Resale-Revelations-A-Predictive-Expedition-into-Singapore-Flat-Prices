@@ -1,4 +1,4 @@
-Here’s a comprehensive README file for your **Singapore Resale Flat Prices Prediction App** project:
+
 
 ---
 
@@ -144,5 +144,5 @@ Email: [raghavendranhp@gmail.com](mailto:raghavendranhp@gmail.com)
 
 ---
 
-Feel free to adjust the placeholders (like `<repo-url>`, `<LinkedIn URL>`, and `<GitHub URL>`) with the actual links to your project repository and social profiles.
+
 
